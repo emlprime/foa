@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>F.O. Apparel</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <!-- 960 css -->
+    <link rel="stylesheet" type="text/css" href="/site_media/stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/site_media/stylesheets/text.css" />
+    <link rel="stylesheet" type="text/css" href="/site_media/stylesheets/960.css" />
+    <link rel="icon" type="image/gif" href="/site_media/images/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href="/site_media/stylesheets/site.css" />
+    <script type="text/javascript" src="/site_media/scripts/jquery-1.2.3.min.js"></script>
+  </head>
+  <body>
+    <div class="container_16">
+      <div class="grid_3 alpha" id="navigation">
+	<a href="/products/">Products</a>
+	<a href="/about/">About</a>
+      </div>
+	  <div id="content" class="grid_10">
+	    {% block content %} BLOCK CONTENT {% endblock %}
+	  </div>
+    </div>
+  </body>
+</html>

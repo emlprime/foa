@@ -8,6 +8,8 @@ urlpatterns = patterns('django.views.generic.simple',
     # Example:
     #(r'^foa/', include('foa.foo.urls')),
     (r'^$', 'direct_to_template', {'template':'index.html'}, "index"),
+    (r'^products/$', 'direct_to_template', {'template':'products.html'}, "products"),
+    (r'^about/$', 'direct_to_template', {'template':'about.html'}, "about"),
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
