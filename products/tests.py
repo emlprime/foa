@@ -1,11 +1,24 @@
-"""
-This file demonstrates two different styles of tests (one doctest and one
-unittest). These will both pass when you run "manage.py test".
-
-Replace these with more appropriate tests for your application.
-"""
 
 from foa.common.tests import CommonTestCase
+from foa.products.models import Product
+
+class TestCreation(CommonTestCase):
+    """ Tests the creation of FOA products to the database
+    """
+
+    def setUp(self):
+        CommonTestCase.setUp(self)
+
+    def test_productCreation(self):
+        """ Tests the creation of a product object to the foa line
+        """
+        product = Product()
+        self.failUnless(AssertionError)
+        product = Product(title="test", description="test_description", price=19.99)
+        self.failUnlessEqual(product.title, "test")
+        self.failUnlessEqual(product.description, "test_description")
+        self.failUnlessEqual(product.price, 19.99)
+
 
 class NavigationTestCase(CommonTestCase):
     """
