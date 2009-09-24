@@ -2,4 +2,18 @@
 
 {% block content %}
 <p>see our products</p>
+
+<ul>
+<p>we have {{ object_list.count }} products</p>
+{% for product in object_list %}
+<p>a</p>
+<li>
+<h2>{{ product.title }}</h2>
+<p>{{ product.description }}</p>
+<p>${{ product.price }}</p>
+</li>
+{% endfor %}
+
+</ul>
+
 {% endblock %}
