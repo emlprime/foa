@@ -59,7 +59,15 @@ a:hover
   color: #ffffff;
 }
 
+h4{
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 li
 {
   list-style-type:none;
+  border: 2px solid black;
+  padding: 1em;
+  margin-bottom: 2em;
 }
