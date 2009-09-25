@@ -12,8 +12,10 @@ class TestCreation(CommonTestCase):
     def test_productCreation(self):
         """ Tests the creation of a product object to the foa line
         """
+        # First tests the null case for an assertion error
         product = Product()
         self.failUnless(AssertionError)
+        # Second creates a product with the required fields only
         product = Product(title="test", description="test_description", price=19.99)
         self.failUnlessEqual(product.title, "test")
         self.failUnlessEqual(product.description, "test_description")
