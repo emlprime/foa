@@ -13,16 +13,18 @@
     <script type="text/javascript" src="/site_media/scripts/jquery-1.2.3.min.js"></script>
   </head>
   <body>
-    <div class="container_16">
-      <a href="/"><div id="header" class="grid_10 prefix_4"><h1>F.O. Apparel</h1></div></a>
-      <div class="grid_2 prefix_2" id="navigation">
-	<a href="/">Home</a>
-	<a href="/products/">Products</a>
-	<a href="/about/">About</a>
+    <div class="container_12">
+      <div id="header"><h1>F.O. Apparel</h1></div>
+      <div class="grid_2 alpha" id="navigation">
+	<p><a href="/">Home</a></p>
+	<p><a href="/products/">Products</a></p>
+	<p><a href="/about/">About</a></p>
       </div>
-	  <div id="content" class="grid_10">
-	    {% block content %} BLOCK CONTENT {% endblock %}
-	  </div>
+      <div class="grid_10 omega"><a href="/"><img src="/site_media/images/fo_logo.jpg" alt="F.O. Apparel" /></a></div>
+      <div class="clear">&nbsp;</div>
+      <div id="content" class="grid_12">
+	{% block content %} BLOCK CONTENT {% endblock %}
+      </div>
     </div>
   </body>
 </html>

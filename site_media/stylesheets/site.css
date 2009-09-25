@@ -12,16 +12,21 @@ body
   text-align: center;
 }
 
+#header h1
+{
+  margin-left: -100000px;
+}
+
 #header
 {
-  text-align:center;
-  margin: 2em;
+  margin-bottom:2em;
 }
 
 #navigation
 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0.5em;
+  text-align: right;
 }
 
 #content p
