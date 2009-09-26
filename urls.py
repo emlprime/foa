@@ -8,10 +8,10 @@ from foa.products.models import Product
 
 urlpatterns = patterns('',
     (r'^site_media/(.*)$', 'django.views.static.serve', {'document_root': MEDIA_ROOT}),
+    (r'^admin/(.*)$', admin.site.root),
 )
 
 urlpatterns += patterns('django.views.generic.simple',
-    (r'^admin/', include(admin.site.urls)),
     (r'^$', 'direct_to_template', {'template':'index.html'}, "index"),
     (r'^about/$', 'direct_to_template', {'template':'about.html'}, "about"),
 
