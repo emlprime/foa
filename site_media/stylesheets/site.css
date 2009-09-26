@@ -18,12 +18,12 @@ body
   margin-left: -100000px;
 }
 
-#header
+#header img
 {
   margin-bottom:2em;
 }
 
-#navigation
+#navigation p
 {
   font-size: 20px;
   margin: 0.5em;
@@ -32,8 +32,7 @@ body
 
 #content p
 {
-  font-size:14px;
-  text-align:center;
+  font-size:16px;
 }
 
 a:link
