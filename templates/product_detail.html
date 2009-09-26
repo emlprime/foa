@@ -1,1 +1,22 @@
 {% extends "base.html" %}
+
+{% block content %}
+
+<div id="product_detail">
+  <h2>{{ object.title }}</h2>
+
+  <div class="grid_4 alpha">
+    <img src="/site_media/{{ object.image_1 }}" alt="{{ object.title }}" />
+    {% if object.image_3 %}<img src="/site_media/{{ object.image_3 }}" alt="{{ object.title }}" />{% endif %}
+  </div>
+  <div class="grid_4">
+    <p>{{ object.description }}</p>
+    <p>${{ object.price }} USD</p>
+  </div>
+  <div class="grid_4 omega">
+    {% if object.image_2 %}<img src="/site_media/{{ object.image_2 }}" alt="{{ object.title }}" />{% endif %}
+    {% if object.image_4 %}<img src="/site_media/{{ object.image_4 }}" alt="{{ object.title }}" />{% endif %}
+  </div>
+</div>
+
+{% endblock %}
