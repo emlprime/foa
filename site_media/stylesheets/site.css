@@ -77,3 +77,12 @@ li
   padding: 1em;
   margin-bottom: 2em;
 }
+
+#footer
+{
+  margin-top: 2em;
+  border-top: 2px solid black;
+}
+
+
+

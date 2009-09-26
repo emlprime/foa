@@ -1,20 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p>Browse all current shirts here. Click on any item to view it in more detail.</p>
+<p>Browse all current items here. Click on any design to view it in more detail and to order.</p>
 
 <ul>
 {% for product in object_list %}
 <div class="grid_4 alpha omega" >
-<a href="/products/{{ product.slug }}/">
   <li class="product_listing" >
-    <h4>{{ product.title }}</h4>
-    
-    {% if product.image_1 %}
-    <img src="/site_media/{{ product.image_1}}" alt="{{ product.title }}" />
-    {% endif %} 
+    <a href="/products/{{ product.slug }}/">
+      <h4>{{ product.title }}</h4>
+      {% if product.image_1 %}
+      <img src="/site_media/{{ product.image_1}}" alt="{{ product.title }}" />
+      {% endif %} 
+    </a>
   </li>
-  </a>
 </div>
 {% endfor %}
 
