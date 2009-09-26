@@ -97,5 +97,10 @@ li:hover
   border-top: 2px solid black;
 }
 
+#footer img
+{
+  padding-top: 1em;
+}
+
 
 
