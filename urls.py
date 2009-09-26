@@ -24,8 +24,8 @@ urlpatterns += patterns ('django.views.generic.list_detail',
     (r'^products/$', 'object_list', {'queryset':Product.objects.all(),'template_name':'products.html'}, "products"),
 )
 
-
+"""
 urlpatterns += patterns ('django.views.generic.list_detail.object_detail',
     (r'^products/detail/$', {'queryset':Product.objects.all(), 'object_id':Product.objects.get(id=1).id, 'template_name':'product_detail.html', 'template_object_name':'product'}),
 )
-
+"""
