@@ -78,6 +78,11 @@ li
   margin-bottom: 2em;
 }
 
+li:hover
+{
+  border:2px solid white;
+}
+
 #footer
 {
   margin-top: 2em;
