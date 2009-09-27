@@ -2,4 +2,3 @@ django
 db_data
 *.pyc
 *~
-fo_sm_*
