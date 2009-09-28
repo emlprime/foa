@@ -16,3 +16,24 @@ class Product(models.Model):
     def __unicode__(self):
         return self.title
 
+    def get_product_sibling(self, movement):
+        all_products = [ p for p in Product.objects.all() ]
+        current_index = all_products.index(self)
+        previous_index = current_index - 1 if current_index > 1 else 0
+        count_of_products = len(all_products)
+        next_index = current_index + 1 if current_index < count_of_products - 1 else count_of_products - 1
+        
+        if movement == "first":
+            product = all_products[0]
+        elif movement == "previous":
+            product = all_products[previous_index]
+        elif movement == "next":
+            product = all_products[next_index]
+        elif movement == "last":
+            product = all_products[count_of_products - 1 ]
+
+        return product
+
+    def get_absolute_url(self):
+        return "/products/%s/" % self.slug
+            

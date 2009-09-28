@@ -3,7 +3,22 @@
 {% block content %}
 
 <div id="product_detail">
-  <h2>{{ object.title }}</h2>
+  <div id="first_page" class="grid_2 alpha">
+    <a href="/products/{{ object.slug }}/first/">|&lt;</a>
+  </div>
+  <div id="previous_page" class="grid_2">
+    <a href="/products/{{ object.slug }}/previous/">&lt;</a>
+  </div>
+
+  <h2 class="grid_4">{{ object.title }}</h2>
+
+  <div id="next_page" class="grid_2">
+    <a href="/products/{{ object.slug }}/next/">&gt;</a>
+  </div>
+  <div id="last_page" class="grid_2 omega">
+    <a href="/products/{{ object.slug }}/last/">&gt;|</a>
+  </div>
+  <div class="clear">&nbsp;</div>
 
   <div class="grid_4 alpha">
     <img src="/site_media/{{ object.image_1 }}" alt="{{ object.title }}" />
