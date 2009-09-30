@@ -53,19 +53,19 @@ body
 a:link
 {
   text-decoration: none;
-  color: #000000;
+  color: #0022aa;
 }
 
 a:visited
 {
   text-decoration: none;
-  color: #000000;
+  color: #0022aa;
 }
 
 a:active
 {
   text-decoration: none;
-  color: #000000;
+  color: #0022aa;
 }
 
 a:hover
@@ -94,7 +94,6 @@ li:hover
 
 #footer
 {
-  margin-top: 2em;
   border-top: 2px solid black;
 }
 
@@ -103,5 +102,8 @@ li:hover
   padding-top: 1em;
 }
 
-
+#first_page, #previous_page, #next_page, #last_page
+{
+  font-size: 20px;
+}
 
