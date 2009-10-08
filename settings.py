@@ -86,3 +86,5 @@ INSTALLED_APPS = (
     'foa.common',
     'foa.products',
 )
+
+from local_settings import *

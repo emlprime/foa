@@ -3,3 +3,4 @@ db_data
 *.pyc
 *~
 apache
+local_settings.py
