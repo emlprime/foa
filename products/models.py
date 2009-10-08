@@ -8,6 +8,7 @@ class Product(models.Model):
     slug = models.SlugField(max_length = 100)
     description = models.TextField()
     price = models.DecimalField(max_digits=5, decimal_places=2)
+    paypal_id = models.CharField(max_length=30)
     image_1 = models.ImageField(upload_to="images", null=True, blank=True)
     image_2 = models.ImageField(upload_to="images", null=True, blank=True)
     image_3 = models.ImageField(upload_to="images", null=True, blank=True)
