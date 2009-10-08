@@ -4,3 +4,4 @@ db_data
 *~
 apache
 local_settings.py
+admin_media
