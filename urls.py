@@ -17,6 +17,7 @@ urlpatterns = patterns('',
 
 urlpatterns += patterns('django.views.generic.simple',
     (r'^$', 'direct_to_template', {'template':'index.html'}, "index"),
+    (r'^sitemap.xml$', 'direct_to_template', {'template':'sitemap.xml'}, "sitemap"),
     (r'^about/$', 'direct_to_template', {'template':'about.html'}, "about"),
     (r'^products/cancel/$', 'direct_to_template', {'template':'cancel.html'}, "about"),
     (r'^products/thanks/$', 'direct_to_template', {'template':'thanks.html'}, "about"),
