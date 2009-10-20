@@ -22,7 +22,7 @@ class Product(models.Model):
         return self.title
 
     def get_product_sibling(self, movement):
-        all_products = [ p for p in Product.objects.all() ]
+        all_products = [ p for p in Product.objects.filter(visible=True) ]
         current_index = all_products.index(self)
         previous_index = current_index - 1 if current_index > 1 else 0
         count_of_products = len(all_products)

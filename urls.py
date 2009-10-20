@@ -27,7 +27,7 @@ urlpatterns += patterns('django.views.generic.simple',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 
-all_products = Product.objects.all()
+all_products = Product.objects.filter(visible=True)
 
 urlpatterns += patterns ('django.views.generic.list_detail',
     (r'^products/$', 'object_list', {'queryset': all_products,'template_name':'products.html'}, "products"),
