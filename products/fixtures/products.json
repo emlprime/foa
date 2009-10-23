@@ -4,14 +4,16 @@
         "model": "products.product", 
         "fields": {
             "image_1": "images/fo_sm_muscles_front_black.png", 
-            "image_3": "images/fo_sm_muscles_front_white.png", 
+            "image_3": "", 
             "image_2": "images/fo_sm_muscles_back_black.png", 
             "description": "Show off your muscles!  In maroon on black and maroon on white.", 
             "title": "Muscular System Tee", 
             "price": "20", 
             "paypal_id": "8759273", 
+            "visible": true, 
+            "sort_order": "A001", 
             "slug": "muscular_system_tee", 
-            "image_4": "images/fo_sm_muscles_back_white.png"
+            "image_4": ""
         }
     }, 
     {
@@ -19,14 +21,16 @@
         "model": "products.product", 
         "fields": {
             "image_1": "images/fo_sm_skeleton_front_black.png", 
-            "image_3": "images/fo_sm_skeleton_front_white.png", 
+            "image_3": "", 
             "image_2": "images/fo_sm_skeleton_back_black.png", 
             "description": "This anatomically correct shirt depicting the skeletal system comes in gray on white or gray on black.", 
             "title": "Skeletal System Tee", 
             "price": "20", 
             "paypal_id": "8759434", 
+            "visible": true, 
+            "sort_order": "A002", 
             "slug": "skeletal_system_tee", 
-            "image_4": "images/fo_sm_skeleton_back_white.png"
+            "image_4": ""
         }
     }, 
     {
@@ -34,43 +38,66 @@
         "model": "products.product", 
         "fields": {
             "image_1": "images/fo_sm_nerves_front_white.png", 
-            "image_3": "images/fo_sm_nerves_front_black.png", 
+            "image_3": "", 
             "image_2": "images/fo_sm_nerves_back_white.png", 
             "description": "This shirt shows that you've got nerve.  In gold on white or gold on black.", 
             "title": "Nervous System Tee", 
             "price": "20", 
             "paypal_id": "8759449", 
+            "visible": true, 
+            "sort_order": "A003", 
             "slug": "nervous_system_tee", 
-            "image_4": "images/fo_sm_nerves_back_black.png"
-        }
-    }, 
-    {
-        "pk": 4, 
-        "model": "products.product", 
-        "fields": {
-            "image_1": "images/fo_sm_rocket_ride_front.png", 
-            "image_3": "", 
-            "image_2": "images/fo_sm_rocket_ride_back.png", 
-            "description": "It's like the rides outside the grocery store, only more adult-themed.", 
-            "title": "Rocket Ride Tee", 
-            "price": "20", 
-            "paypal_id": "8759459", 
-            "slug": "rocket_ride_tee", 
             "image_4": ""
         }
     }, 
     {
-        "pk": 5, 
+        "pk": 12, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/fo_sm_nice_jugs.png", 
+            "image_1": "images/fo_sm_eat_bananas.png", 
             "image_3": "", 
             "image_2": "", 
-            "description": "Go ahead, girl.  Brag on your jugs.", 
-            "title": "Nice Jugs Tee", 
+            "description": "Guys, it is your responsibility to rid the world of potassium deficiency.", 
+            "title": "Eat More Bananas Tee", 
             "price": "20", 
-            "paypal_id": "8759472", 
-            "slug": "nice_jugs_tee", 
+            "paypal_id": "8759567", 
+            "visible": true, 
+            "sort_order": "D001", 
+            "slug": "eat_more_bananas_tee", 
+            "image_4": ""
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "products.product", 
+        "fields": {
+            "image_1": "images/fo_sm_bad_luck_banana.png", 
+            "image_3": "", 
+            "image_2": "", 
+            "description": "Everyone has those bad days.  Show sympathy with this shirt.", 
+            "title": "Bad Luck Banana Tee", 
+            "price": "20", 
+            "paypal_id": "8759556", 
+            "visible": true, 
+            "sort_order": "D002", 
+            "slug": "bad_luck_banana_tee", 
+            "image_4": ""
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "products.product", 
+        "fields": {
+            "image_1": "images/fo_sm_cans.png", 
+            "image_3": "", 
+            "image_2": "", 
+            "description": "So you've got a nice rack, and everyone just seems to stare at it.  All the time.", 
+            "title": "Talk to the Cans Tee", 
+            "price": "20", 
+            "paypal_id": "8759542", 
+            "visible": true, 
+            "sort_order": "D003", 
+            "slug": "talk_to_the_cans_tee", 
             "image_4": ""
         }
     }, 
@@ -85,7 +112,60 @@
             "title": "Like Jugs Tee", 
             "price": "20", 
             "paypal_id": "8759482", 
+            "visible": true, 
+            "sort_order": "D004", 
             "slug": "like_jugs_tee", 
+            "image_4": ""
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "products.product", 
+        "fields": {
+            "image_1": "images/fo_sm_nice_jugs.png", 
+            "image_3": "", 
+            "image_2": "", 
+            "description": "Go ahead, girl.  Brag on your jugs.", 
+            "title": "Nice Jugs Tee", 
+            "price": "20", 
+            "paypal_id": "8759472", 
+            "visible": true, 
+            "sort_order": "D005", 
+            "slug": "nice_jugs_tee", 
+            "image_4": ""
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "products.product", 
+        "fields": {
+            "image_1": "images/fo_sm_rocket_ride_front.png", 
+            "image_3": "", 
+            "image_2": "images/fo_sm_rocket_ride_back.png", 
+            "description": "It's like the rides outside the grocery store, only more adult-themed.", 
+            "title": "Rocket Ride Tee", 
+            "price": "20", 
+            "paypal_id": "8759459", 
+            "visible": true, 
+            "sort_order": "D006", 
+            "slug": "rocket_ride_tee", 
+            "image_4": ""
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "products.product", 
+        "fields": {
+            "image_1": "images/fo_sm_fuck_me.png", 
+            "image_3": "", 
+            "image_2": "", 
+            "description": "You're feeling horny, and he or she needs a little encouragement.  This is a fun way to send that message, just so there's no room for misinterpretation.", 
+            "title": "F*ck Me Tee", 
+            "price": "20", 
+            "paypal_id": "8759522", 
+            "visible": false, 
+            "sort_order": "F001", 
+            "slug": "f_ck_me_tee", 
             "image_4": ""
         }
     }, 
@@ -100,6 +180,8 @@
             "title": "F*ck You Tee", 
             "price": "20", 
             "paypal_id": "8759498", 
+            "visible": false, 
+            "sort_order": "F002", 
             "slug": "f_ck_you_tee", 
             "image_4": ""
         }
@@ -115,67 +197,9 @@
             "title": "F*ck Off Tee", 
             "price": "20", 
             "paypal_id": "8759514", 
+            "visible": false, 
+            "sort_order": "F003", 
             "slug": "f_ck_off_tee", 
-            "image_4": ""
-        }
-    }, 
-    {
-        "pk": 9, 
-        "model": "products.product", 
-        "fields": {
-            "image_1": "images/fo_sm_fuck_me.png", 
-            "image_3": "", 
-            "image_2": "", 
-            "description": "You're feeling horny, and he or she needs a little encouragement.  This is a fun way to send that message, just so there's no room for misinterpretation.", 
-            "title": "F*ck Me Tee", 
-            "price": "20", 
-            "paypal_id": "8759522", 
-            "slug": "f_ck_me_tee", 
-            "image_4": ""
-        }
-    }, 
-    {
-        "pk": 10, 
-        "model": "products.product", 
-        "fields": {
-            "image_1": "images/fo_sm_cans.png", 
-            "image_3": "", 
-            "image_2": "", 
-            "description": "So you've got a nice rack, and everyone just seems to stare at it.  All the time.", 
-            "title": "Talk to the Cans Tee", 
-            "price": "20", 
-            "paypal_id": "8759542", 
-            "slug": "talk_to_the_cans_tee", 
-            "image_4": ""
-        }
-    }, 
-    {
-        "pk": 11, 
-        "model": "products.product", 
-        "fields": {
-            "image_1": "images/fo_sm_bad_luck_banana.png", 
-            "image_3": "", 
-            "image_2": "", 
-            "description": "Everyone has those bad days.  Show sympathy with this shirt.", 
-            "title": "Bad Luck Banana Tee", 
-            "price": "20", 
-            "paypal_id": "8759556", 
-            "slug": "bad_luck_banana_tee", 
-            "image_4": ""
-        }
-    }, 
-    {
-        "pk": 12, 
-        "model": "products.product", 
-        "fields": {
-            "image_1": "images/fo_sm_eat_bananas.png", 
-            "image_3": "", 
-            "image_2": "", 
-            "description": "Guys, it is your responsibility to rid the world of potassium deficiency.", 
-            "title": "Eat More Bananas Tee", 
-            "price": "20", 
-            "paypal_id": "8759567", 
-            "slug": "eat_more_bananas_tee", 
             "image_4": ""
         }
     }

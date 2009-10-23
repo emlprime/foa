@@ -6,6 +6,8 @@ class Product(models.Model):
 
     title = models.CharField(max_length = 100)
     slug = models.SlugField(max_length = 100)
+    visible = models.BooleanField(null=False, blank=False)
+    sort_order = models.CharField(max_length=10)
     description = models.TextField()
     price = models.DecimalField(max_digits=5, decimal_places=2)
     paypal_id = models.CharField(max_length=30)
@@ -13,12 +15,14 @@ class Product(models.Model):
     image_2 = models.ImageField(upload_to="images", null=True, blank=True)
     image_3 = models.ImageField(upload_to="images", null=True, blank=True)
     image_4 = models.ImageField(upload_to="images", null=True, blank=True)
+    class Meta:
+        ordering = ['sort_order']
 
     def __unicode__(self):
         return self.title
 
     def get_product_sibling(self, movement):
-        all_products = [ p for p in Product.objects.all() ]
+        all_products = [ p for p in Product.objects.filter(visible=True) ]
         current_index = all_products.index(self)
         previous_index = current_index - 1 if current_index > 1 else 0
         count_of_products = len(all_products)
