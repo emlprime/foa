@@ -3,20 +3,18 @@
 {% block content %}
 <p>Browse all current items here. Click on any design to view it in more detail and to order.</p>
 
-<ul>
-{% for product in object_list %}
-<div class="grid_4 alpha omega" >
-  <li class="product_listing" >
+<ul id="products">
+  {% for product in object_list %}
+  <li class="product_listing grid_3 alpha omega" >
     <a href="/products/{{ product.slug }}/">
-      <h4>{{ product.title }}</h4>
+      {{ product.title }}
       {% if product.image_1 %}
       <img src="/site_media/{{ product.image_1}}" alt="{{ product.title }}" />
       {% endif %} 
     </a>
   </li>
-</div>
-{% endfor %}
-
+  {% endfor %}
+  
 </ul>
 
 {% endblock %}
