@@ -91,6 +91,7 @@ li
   border: 2px solid black;
   padding: 1em;
   margin-bottom: 2em;
+  height: 300px;
 }
 
 li:hover
