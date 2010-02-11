@@ -32,9 +32,13 @@ urlpatterns += patterns('django.views.generic.simple',
 )
 
 all_products = Product.objects.filter(visible=True)
+geeky_products = all_products.filter(category="G")
+cheeky_products = all_products.filter(category="C")
 
 urlpatterns += patterns ('django.views.generic.list_detail',
     (r'^products/$', 'object_list', {'queryset': all_products,'template_name':'products.html'}, "products"),
+    (r'^products/geeky/$', 'object_list', {'queryset': geeky_products,'template_name':'geeky.html'}, "geeky"),
+    (r'^products/cheeky/$', 'object_list', {'queryset': cheeky_products,'template_name':'cheeky.html'}, "cheeky"),
     (r'^products/(?P<slug>[a-z_]+)/$', 'object_detail', {'queryset': all_products, 'template_name':'product_detail.html'}, "products"),
 )
 

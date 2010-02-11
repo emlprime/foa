@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Browse all current items here. Click on any design to view it in more detail and to order.</p>
+
+<ul id="products">
+  {% for product in object_list %}
+  <li class="product_listing grid_3 alpha omega" >
+    <a href="/products/{{ product.slug }}/">
+      {{ product.title }}
+      {% if product.image_1 %}
+      <img src="/site_media/{{ product.image_1}}" alt="{{ product.title }}" />
+      {% endif %} 
+    </a>
+  </li>
+  {% endfor %}
+  
+</ul>
+
+{% endblock %}
