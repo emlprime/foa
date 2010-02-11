@@ -24,6 +24,7 @@ urlpatterns += patterns('django.views.generic.simple',
     (r'^products/thanks/$', 'direct_to_template', {'template':'thanks.html'}, "thanks"),
     (r'^paypal_help/$', 'direct_to_template', {'template':'paypal_help.html'}, "paypal_help"),
     (r'^privacy_policy/$', 'direct_to_template', {'template':'privacy_policy.html'}, "privacy_policy"),
+    (r'^coming_soon/$', 'direct_to_template', {'template':'coming_soon.html'}, "coming_soon"),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:

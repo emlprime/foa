@@ -3,43 +3,43 @@
         "pk": 1, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/muscular_system_sm_1_.JPG", 
-            "image_3": "images/muscular_system_sm_3_.JPG", 
-            "image_2": "images/muscular_system_sm_2_.JPG", 
-            "description": "Show off your muscles!  Red design on a black shirt, with anatomically correct muscle design on the front and back and the FO logo on the sleeve.", 
+            "image_1": "images/muscular_system_tee_front.JPG", 
+            "image_3": "images/muscular_sys_new_1.JPG", 
+            "image_2": "images/muscular_system_tee_back_sm.JPG", 
+            "description": "Show off your muscles!  Red design on a black shirt, with anatomically correct muscle design on the front and back.", 
             "title": "Muscular System Tee", 
             "price": "20", 
             "paypal_id": "8759273", 
             "visible": true, 
             "sort_order": "A001", 
             "slug": "muscular_system_tee", 
-            "image_4": ""
+            "image_4": "images/muscular_sys_new_2.JPG"
         }
     }, 
     {
         "pk": 2, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/skeletal_system_sm_3_.JPG", 
-            "image_3": "images/skeletal_system_sm_1_.JPG", 
-            "image_2": "images/skeletal_system_sm_2_.JPG", 
-            "description": "This anatomically correct shirt depicting the skeletal system comes in gray on black with the FO logo on the sleeve.", 
+            "image_1": "images/skeletal_system_tee_front_sm.JPG", 
+            "image_3": "images/skeletal_sys_new_1.JPG", 
+            "image_2": "images/skeletal_system_tee_front_sm_.JPG", 
+            "description": "This anatomically correct shirt depicting the skeletal system comes in gray on black.", 
             "title": "Skeletal System Tee", 
             "price": "20", 
             "paypal_id": "8759434", 
             "visible": true, 
             "sort_order": "A002", 
             "slug": "skeletal_system_tee", 
-            "image_4": ""
+            "image_4": "images/skeletal_sys_new_2.JPG"
         }
     }, 
     {
         "pk": 3, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/nervous_system_sm_1_.JPG", 
-            "image_3": "images/nervous_system_sm_3_.JPG", 
-            "image_2": "images/nervous_system_sm_2_.JPG", 
+            "image_1": "images/nervous_system_tee_front_sm.JPG", 
+            "image_3": "images/nervous_system_new_1.JPG", 
+            "image_2": "images/nervous_system_tee_back_sm.JPG", 
             "description": "This shirt shows that you've got nerve.  In olive green on black.", 
             "title": "Nervous System Tee", 
             "price": "20", 
@@ -47,16 +47,16 @@
             "visible": true, 
             "sort_order": "A003", 
             "slug": "nervous_system_tee", 
-            "image_4": ""
+            "image_4": "images/nervous_system_new_2.JPG"
         }
     }, 
     {
         "pk": 12, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/eat_more_bananas_sm_2_.JPG", 
-            "image_3": "images/eat_more_bananas_sm_3_.JPG", 
-            "image_2": "images/eat_more_bananas_sm_1_.JPG", 
+            "image_1": "images/eat_me_tee_sm.JPG", 
+            "image_3": "images/eat_me_new_2_.JPG", 
+            "image_2": "images/eat_me_new_1_.JPG", 
             "description": "It is your responsibility to rid the world of potassium deficiency.  In bright yellow on blue.", 
             "title": "Eat More Bananas Tee", 
             "price": "20", 
@@ -64,16 +64,16 @@
             "visible": true, 
             "sort_order": "D001", 
             "slug": "eat_more_bananas_tee", 
-            "image_4": "images/eat_more_bananas_sm_4_.JPG"
+            "image_4": ""
         }
     }, 
     {
         "pk": 11, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/bad_luck_banana_sm_3_.JPG", 
-            "image_3": "images/bad_luck_banana_sm_2_.JPG", 
-            "image_2": "images/bad_luck_banana_sm_1_.JPG", 
+            "image_1": "images/bad_luck_banana_sm_.JPG", 
+            "image_3": "images/bad_luck_banana_new_2_.JPG", 
+            "image_2": "images/bad_luck_banana_new_1_.JPG", 
             "description": "Everyone has those bad days.  Show sympathy with this shirt.  Yellow and black on green.", 
             "title": "Bad Luck Banana Tee", 
             "price": "20", 
@@ -88,10 +88,10 @@
         "pk": 10, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/cans_sm_1_.JPG", 
-            "image_3": "", 
-            "image_2": "", 
-            "description": "So you've got a nice rack, and everyone just seems to stare at it.  All the time.", 
+            "image_1": "images/cans_tee_sm.JPG", 
+            "image_3": "images/cans_new_2.JPG", 
+            "image_2": "images/cans_new_1.JPG", 
+            "description": "So you've got a nice rack, and everyone just seems to stare at it.  All the time.  Black on green.", 
             "title": "Talk to the Cans Tee", 
             "price": "20", 
             "paypal_id": "8759542", 
@@ -105,10 +105,10 @@
         "pk": 6, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/like_jugs_sm_2_.JPG", 
-            "image_3": "", 
-            "image_2": "images/like_jugs_sm_1_.JPG", 
-            "description": "Who doesn't?", 
+            "image_1": "images/like_jugs_tee_sm.JPG", 
+            "image_3": "images/like_jugs_new_2.JPG", 
+            "image_2": "images/like_jugs_new_1.JPG", 
+            "description": "Who doesn't?  In black on royal blue.", 
             "title": "Like Jugs Tee", 
             "price": "20", 
             "paypal_id": "8759482", 
@@ -122,10 +122,10 @@
         "pk": 5, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/nice_jugs_sm_4_.JPG", 
-            "image_3": "images/nice_jugs_sm_2_.JPG", 
-            "image_2": "images/nice_jugs_sm_1_.JPG", 
-            "description": "Go ahead, girl.  Brag on your jugs.", 
+            "image_1": "images/nice_jugs_tee_sm.JPG", 
+            "image_3": "images/nice_jugs_new_2.JPG", 
+            "image_2": "images/nice_jugs_new_1_.JPG", 
+            "description": "Go ahead, girl.  Brag on your jugs. In black on light blue women's t-shirt.", 
             "title": "Nice Jugs Tee", 
             "price": "20", 
             "paypal_id": "8759472", 
@@ -139,17 +139,17 @@
         "pk": 4, 
         "model": "products.product", 
         "fields": {
-            "image_1": "images/rocket_ride_sm_3_.JPG", 
-            "image_3": "images/rocket_ride_sm_1_.JPG", 
-            "image_2": "images/rocket_ride_sm_2_.JPG", 
-            "description": "It's like the rides outside the grocery store, only more adult-themed.", 
+            "image_1": "images/rocket_ride_front_sm.JPG", 
+            "image_3": "images/rocket_ride_new_1_.JPG", 
+            "image_2": "images/rocket_ride_tee_back_sm_.JPG", 
+            "description": "It's like the rides outside the grocery store, only more adult-themed. In athletic gold and red on brown.", 
             "title": "Rocket Ride Tee", 
             "price": "20", 
             "paypal_id": "8759459", 
             "visible": true, 
             "sort_order": "D006", 
             "slug": "rocket_ride_tee", 
-            "image_4": ""
+            "image_4": "images/rocket_ride_new_2_.JPG"
         }
     }, 
     {
