@@ -35,9 +35,7 @@ body
 #content, #navigation, #footer_text
 {
   padding-top: 1em;
-  background-color: #9999CC;
-  width: 930px;
-  margin-left: 12px;
+  background-color: #8C82C3;
   border-right: 4px solid #222222;
   border-left: 4px solid #222222;
 }
@@ -81,11 +79,6 @@ a:hover
   outline: 2px solid #222222;
 }
 
-ul
-{
-  margin-left: 40px;
-}
-
 td
 {
   width:300px;
@@ -113,10 +106,5 @@ li
 {
   margin-bottom:0px;
   font-size: 13px;
-}
-
-.section_link
-{
-  padding: 20px;
 }
 
