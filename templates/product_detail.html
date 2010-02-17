@@ -3,31 +3,36 @@
 {% block content %}
 
 <div id="product_detail">
+
   <div id="first_page" class="grid_2 alpha">
     <a href="/products/{{ object.slug }}/first/">|&lt;</a>
   </div>
-  <div id="previous_page" class="grid_2">
+  
+  <div id="previous_page" class="grid_2 alpha omega">
     <a href="/products/{{ object.slug }}/previous/">&lt;</a>
   </div>
 
   <h2 class="grid_4">{{ object.title }}</h2>
   
-  <div id="next_page" class="grid_2">
+  <div id="next_page" class="grid_2 alpha omega" >
     <a href="/products/{{ object.slug }}/next/">&gt;</a>
   </div>
+
   <div id="last_page" class="grid_2 omega">
     <a href="/products/{{ object.slug }}/last/">&gt;|</a>
   </div>
+
   <div class="clear">&nbsp;</div>
 
   <div class="grid_4 alpha">
-    <img src="/site_media/{{ object.image_1 }}" alt="{{ object.title }}" />
-    {% if object.image_3 %}<img src="/site_media/{{ object.image_3 }}" alt="{{ object.title }}" />{% endif %}
+
+    <img src="/site_media/{{ object.image_1 }}" alt="{{ object.title }}" class="product_detail" />
+    {% if object.image_3 %}<img src="/site_media/{{ object.image_3 }}" alt="{{ object.title }}" class="product_detail" />{% endif %}
   </div>
-  <div class="grid_4">
+
+  <div class="grid_4 alpha omega">
     <p>{{ object.description }}</p>
     <p>${{ object.price }} USD</p>
-
 
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -44,15 +49,15 @@
       <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
-
-
-
   </div>
+
   <div class="grid_4 omega">
-    {% if object.image_2 %}<img src="/site_media/{{ object.image_2 }}" alt="{{ object.title }}" />{% endif %}
-    {% if object.image_4 %}<img src="/site_media/{{ object.image_4 }}" alt="{{ object.title }}" />{% endif %}
+    {% if object.image_2 %}<img class="product_detail" src="/site_media/{{ object.image_2 }}" alt="{{ object.title }}" />{% endif %}
+    {% if object.image_4 %}<img src="/site_media/{{ object.image_4 }}" class="product_detail" alt="{{ object.title }}" />{% endif %}
   </div>
+
 </div>
+
 <div class="clear">&nbsp;</div>
 
 

@@ -17,41 +17,43 @@
     <script type="text/javascript" src="/site_media/scripts/base.js"></script>
   </head>
   <body>
-    <div class="container_12">
-      <div id="header"><h1>F.O. Apparel</h1></div>
-      <div class="grid_12" id="masthead"><a href="/">Geeky and Cheeky</a></div>
-      <div class="clear">&nbsp;</div>
-      <div class="grid_12" id="navigation">
-	<a href="/">Home</a>
-	<a href="/products/">Products</a>
-	<a href="/about/">About Us</a>
-	<a href="/coming_soon/">Coming Soon</a>
-      </div>
 
-      <div id="content" class="grid_12">
-	{% block content %} BLOCK CONTENT {% endblock %}
-	<div class="grid_12" id="footer_text">
+    <div class="container_12">
+
+      <div id="header"><h1>F.O. Apparel</h1></div>
+
+      <div class="grid_12" id="masthead"><a href="/"><img src="/site_media/images/masthead.gif" alt="F.O. Apparel: Geeky and Cheeky Tees" /></a></div>
+      <div class="clear">&nbsp;</div>
+
+      <div class="grid_12" id="page_area" >
+	<div id="navigation">
+	  <a href="/">Home</a>
+	  <a href="/products/">Products</a>
+	  <a href="/about/">About Us</a>
+	  <a href="/coming_soon/">Coming Soon</a>
+	</div>
+
+	<div id="content">
+	  {% block content %} BLOCK CONTENT {% endblock %}
+	</div>
+
+	<div id="footer_text">
 	  <p>Copyright &copy; 2008-2010 F.O. Apparel - All Rights Reserved.</p>
 	  <p><a href="/privacy_policy/">Privacy Policy</a>     ---     <a href="/paypal_help/">Ordering Help</a></p>
 	</div>
       </div>
-      <div class="clear">&nbsp;</div>
-      <div id="footer">
-	<div class="grid_2 alpha"><a href="http://www.emlprime.com" rel="external"><img src="/site_media/images/made_by_eml.png" alt="Website Design and Hosting by EMLPrime" /></a></div>
-	<div class="grid_7 prefix_1"><a href="http://www.freetruthordare.com" rel="external"><img src="/site_media/images/play_tod.gif" alt="Play Free Truth or Dare Online" /></a></div>
-	<div class="grid_2 omega"><a href="mailto:laura@foapparel.com"><img src="/site_media/images/footer_contact.png" alt="Contact Us at F.O. Apparel" /></a></div>
-      </div>
     </div>
 
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-88241-9");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-88241-9");
+      pageTracker._trackPageview();
+      } catch(err) {}</script>
 
   </body>
 </html>
