@@ -19,6 +19,11 @@ body
   float: left;
 }
 
+h3
+{
+  font-size:1.2em;
+}
+
 #masthead
 {
   padding-top: 0.5em;
