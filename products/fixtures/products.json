@@ -3,6 +3,7 @@
         "pk": 1, 
         "model": "products.product", 
         "fields": {
+            "category": "G", 
             "image_1": "images/muscular_system_tee_front.JPG", 
             "image_3": "images/muscular_sys_new_1.JPG", 
             "image_2": "images/muscular_system_tee_back_sm.JPG", 
@@ -20,6 +21,7 @@
         "pk": 2, 
         "model": "products.product", 
         "fields": {
+            "category": "G", 
             "image_1": "images/skeletal_system_tee_front_sm.JPG", 
             "image_3": "images/skeletal_sys_new_1.JPG", 
             "image_2": "images/skeletal_system_tee_front_sm_.JPG", 
@@ -37,6 +39,7 @@
         "pk": 3, 
         "model": "products.product", 
         "fields": {
+            "category": "G", 
             "image_1": "images/nervous_system_tee_front_sm.JPG", 
             "image_3": "images/nervous_system_new_1.JPG", 
             "image_2": "images/nervous_system_tee_back_sm.JPG", 
@@ -54,6 +57,7 @@
         "pk": 12, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/eat_me_tee_sm.JPG", 
             "image_3": "images/eat_me_new_2_.JPG", 
             "image_2": "images/eat_me_new_1_.JPG", 
@@ -71,6 +75,7 @@
         "pk": 11, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/bad_luck_banana_sm_.JPG", 
             "image_3": "images/bad_luck_banana_new_2_.JPG", 
             "image_2": "images/bad_luck_banana_new_1_.JPG", 
@@ -88,6 +93,7 @@
         "pk": 10, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/cans_tee_sm.JPG", 
             "image_3": "images/cans_new_2.JPG", 
             "image_2": "images/cans_new_1.JPG", 
@@ -105,6 +111,7 @@
         "pk": 6, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/like_jugs_tee_sm.JPG", 
             "image_3": "images/like_jugs_new_2.JPG", 
             "image_2": "images/like_jugs_new_1.JPG", 
@@ -122,6 +129,7 @@
         "pk": 5, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/nice_jugs_tee_sm.JPG", 
             "image_3": "images/nice_jugs_new_2.JPG", 
             "image_2": "images/nice_jugs_new_1_.JPG", 
@@ -132,13 +140,14 @@
             "visible": true, 
             "sort_order": "D005", 
             "slug": "nice_jugs_tee", 
-            "image_4": "images/nice_jugs_sm_3.JPG"
+            "image_4": "images/nice_jugs_sm_3_.JPG"
         }
     }, 
     {
         "pk": 4, 
         "model": "products.product", 
         "fields": {
+            "category": "C", 
             "image_1": "images/rocket_ride_front_sm.JPG", 
             "image_3": "images/rocket_ride_new_1_.JPG", 
             "image_2": "images/rocket_ride_tee_back_sm_.JPG", 
@@ -156,6 +165,7 @@
         "pk": 9, 
         "model": "products.product", 
         "fields": {
+            "category": "", 
             "image_1": "images/fo_sm_fuck_me.png", 
             "image_3": "", 
             "image_2": "", 
@@ -173,6 +183,7 @@
         "pk": 7, 
         "model": "products.product", 
         "fields": {
+            "category": "", 
             "image_1": "images/fo_sm_fuck_you.png", 
             "image_3": "", 
             "image_2": "", 
@@ -190,6 +201,7 @@
         "pk": 8, 
         "model": "products.product", 
         "fields": {
+            "category": "", 
             "image_1": "images/fo_sm_fuck_off.png", 
             "image_3": "", 
             "image_2": "", 
